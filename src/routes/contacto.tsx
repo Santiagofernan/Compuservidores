@@ -8,13 +8,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/contacto")({
   head: () => ({
     meta: [
-      { title: "Contacto y cotización · ServerHub.co" },
+      { title: "Contacto y cotización · CompuServidores LR" },
       {
         name: "description",
         content:
           "Solicita tu cotización de servidores y componentes. Contáctanos por WhatsApp, correo o visítanos en Bogotá. Respuesta rápida y asesoría especializada.",
       },
-      { property: "og:title", content: "Contáctanos · ServerHub.co" },
+      { property: "og:title", content: "Contáctanos · CompuServidores LR" },
       {
         property: "og:description",
         content:
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/contacto")({
 });
 
 const PHONE = "573000000000";
-const EMAIL = "ventas@serverhub.co";
+const EMAIL = "ventas@compuservidoreslr.com";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Ingresa tu nombre").max(100),

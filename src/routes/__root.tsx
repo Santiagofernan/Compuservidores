@@ -14,7 +14,7 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { Analytics } from "@/components/site/Analytics";
 
-const SITE_NAME = "ServerHub.co";
+const SITE_NAME = "CompuServidores LR";
 const SITE_DESC =
   "Distribuidor de servidores HP, Dell y Lenovo, memorias, procesadores, almacenamiento, redes y componentes para data center en Colombia.";
 const SITE_KEYWORDS =
@@ -124,7 +124,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             "@type": "ContactPoint",
             contactType: "sales",
             telephone: "+57-300-000-0000",
-            email: "ventas@serverhub.co",
+            email: "ventas@compuservidoreslr.com",
             areaServed: "CO",
             availableLanguage: ["es"],
           },
