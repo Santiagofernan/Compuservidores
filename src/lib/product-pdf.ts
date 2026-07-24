@@ -11,7 +11,7 @@ export function downloadDatasheet(p: Product) {
   doc.setTextColor(255);
   doc.setFontSize(20);
   doc.setFont("helvetica", "bold");
-  doc.text("ServerHub.co", 40, 40);
+  doc.text("CompuServidores LR", 40, 40);
   doc.setFontSize(11);
   doc.setFont("helvetica", "normal");
   doc.text("Ficha técnica de producto", 40, 60);
@@ -75,7 +75,7 @@ export function downloadDatasheet(p: Product) {
   doc.setFontSize(9);
   doc.setTextColor(120);
   doc.text(
-    "ServerHub.co · ventas@serverhub.co · +57 300 000 0000 · Bogotá, Colombia",
+    "CompuServidores LR · ventas@compuservidoreslr.com · +57 300 000 0000 · Bogotá, Colombia",
     40,
     H - 30,
   );

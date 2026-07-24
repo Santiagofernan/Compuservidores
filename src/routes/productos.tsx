@@ -20,13 +20,13 @@ import { downloadDatasheet } from "@/lib/product-pdf";
 export const Route = createFileRoute("/productos")({
   head: () => ({
     meta: [
-      { title: "Catálogo de servidores y componentes · ServerHub.co" },
+      { title: "Catálogo de servidores y componentes · CompuServidores LR" },
       {
         name: "description",
         content:
           "Catálogo de servidores HP, Dell, Lenovo, memorias DDR4/DDR5, procesadores Xeon y EPYC, almacenamiento SSD/HDD, redes y energía. Filtra y descarga fichas técnicas.",
       },
-      { property: "og:title", content: "Catálogo de productos · ServerHub.co" },
+      { property: "og:title", content: "Catálogo de productos · CompuServidores LR" },
       {
         property: "og:description",
         content:

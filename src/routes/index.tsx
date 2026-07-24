@@ -9,13 +9,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ServerHub.co · Servidores HP, Dell y Lenovo en Colombia" },
+      { title: "CompuServidores LR · Servidores HP, Dell y Lenovo en Colombia" },
       {
         name: "description",
         content:
           "Distribuidor de servidores nuevos y reacondicionados HP, Dell, Lenovo y componentes para data center en Colombia. Cotización rápida y envíos nacionales.",
       },
-      { property: "og:title", content: "ServerHub.co · Servidores empresariales en Colombia" },
+      { property: "og:title", content: "CompuServidores LR · Servidores empresariales en Colombia" },
       {
         property: "og:description",
         content:

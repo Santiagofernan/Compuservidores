@@ -5,13 +5,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/marcas")({
   head: () => ({
     meta: [
-      { title: "Marcas · Lenovo, HPE, Dell EMC, Cisco y más · ServerHub.co" },
+      { title: "Marcas · Lenovo, HPE, Dell EMC, Cisco y más · CompuServidores LR" },
       {
         name: "description",
         content:
           "Distribuidor autorizado de Lenovo, HPE, Dell EMC, Cisco, Supermicro, Synology, QNAP, WD, Crucial y Seagate para servidores y componentes en Colombia.",
       },
-      { property: "og:title", content: "Nuestras marcas · ServerHub.co" },
+      { property: "og:title", content: "Nuestras marcas · CompuServidores LR" },
       {
         property: "og:description",
         content:

@@ -7,13 +7,13 @@ import hero from "@/assets/hero-datacenter.jpg.asset.json";
 export const Route = createFileRoute("/nosotros")({
   head: () => ({
     meta: [
-      { title: "Nosotros · Historia, misión y sostenibilidad · ServerHub.co" },
+      { title: "Nosotros · Historia, misión y sostenibilidad · CompuServidores LR" },
       {
         name: "description",
         content:
           "Somos un distribuidor colombiano de servidores e infraestructura TI. Conoce nuestra historia, misión, visión y compromiso con la tecnología responsable.",
       },
-      { property: "og:title", content: "Nosotros · ServerHub.co" },
+      { property: "og:title", content: "Nosotros · CompuServidores LR" },
       {
         property: "og:description",
         content:
