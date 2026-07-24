@@ -21,7 +21,7 @@ export function Header() {
           <span className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-to-br from-primary to-accent text-primary-foreground">
             <Server className="h-5 w-5" />
           </span>
-          <span>CompuServidores LR<span className="text-accent">.co</span></span>
+          <span>CompuServidores <span className="text-accent">LR</span></span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">
