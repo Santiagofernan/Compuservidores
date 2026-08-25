@@ -9,7 +9,7 @@ export const Route = createFileRoute("/marcas")({
       {
         name: "description",
         content:
-          "Distribuidor autorizado de Lenovo, HPE, Dell EMC, Cisco, Supermicro, Synology, QNAP, WD, Crucial y Seagate para servidores y componentes en Colombia.",
+          "Distribuidor autorizado de Lenovo, HP, Dell EMC, Cisco, Supermicro, Synology, QNAP, WD, Crucial y Seagate para servidores y componentes en Colombia.",
       },
       { property: "og:title", content: "Nuestras marcas · CompuServidores LR" },
       {

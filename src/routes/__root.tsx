@@ -23,6 +23,10 @@ const SITE_KEYWORDS =
 // Inline theme boot to avoid flash-of-unstyled dark/light.
 const themeBoot = `try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.classList.toggle('dark',t==='dark');document.documentElement.style.colorScheme=t}catch(e){}`;
 
+function ThemeScript() {
+  return <script dangerouslySetInnerHTML={{ __html: themeBoot }} />;
+}
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -140,9 +144,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="es">
+    <html lang="es" style={{ colorScheme: "light" }} suppressHydrationWarning>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: themeBoot }} />
+        <ThemeScript />
         <HeadContent />
       </head>
       <body>

@@ -40,14 +40,14 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold text-white">Contacto</h4>
           <ul className="mt-4 space-y-3 text-sm">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-sky-400" /> +57 300 000 0000</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-sky-400" /> ventas@compuservidoreslr.com</li>
-            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-sky-400" /> Bogotá, Colombia</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-sky-400" /> +57 3215335057</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-sky-400" /> compuservidores@hotmail.com</li>
+            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-sky-400" /> Cra 15 # 79-65 local 101-3 centrolago79 Bogotá, Colombia</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-white/10 py-5 text-center text-xs text-slate-500">
-        © {new Date().getFullYear()} CompuServidores LR · Todos los derechos reservados.
+        © {new Date().getFullYear()} Alsoft · Todos los derechos reservados.
       </div>
     </footer>
   );

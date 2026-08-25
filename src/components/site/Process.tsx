@@ -20,15 +20,15 @@ export function Process() {
           </h2>
         </div>
 
-        <div className="relative mt-16">
+        <div className="relative mt-16 overflow-hidden">
           <div
-            className="pointer-events-none absolute left-0 right-0 top-9 hidden h-px lg:block"
+            className="pointer-events-none absolute inset-x-0 top-9 hidden h-px overflow-hidden lg:block"
             style={{
               background:
                 "linear-gradient(90deg, transparent 0%, var(--primary) 15%, var(--accent) 50%, var(--primary) 85%, transparent 100%)",
             }}
           >
-            <div className="h-full w-1/3 animate-[shimmer_3s_linear_infinite] bg-white/70" />
+            <div className="h-full w-[40%] animate-[shimmer_3s_linear_infinite] bg-white/70" />
           </div>
 
           <ol className="grid gap-8 lg:grid-cols-4">
@@ -52,8 +52,8 @@ export function Process() {
 
       <style>{`
         @keyframes shimmer {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(400%); }
+          0% { transform: translateX(-120%); }
+          100% { transform: translateX(260%); }
         }
       `}</style>
     </section>

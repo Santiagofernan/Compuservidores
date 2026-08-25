@@ -1,5 +1,5 @@
 import { ArrowRight, ShieldCheck, Zap } from "lucide-react";
-import hero from "@/assets/hero-datacenter.jpg.asset.json";
+import heroImage from "@/assets/hero-datacenter.svg";
 import { Particles } from "./Particles";
 
 export function Hero() {
@@ -7,7 +7,7 @@ export function Hero() {
     <section id="inicio" className="relative isolate overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <img
-          src={hero.url}
+          src={heroImage}
           alt="Data center con servidores empresariales"
           width={1920}
           height={1080}
@@ -32,7 +32,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="mt-6 max-w-2xl text-base text-slate-200 md:text-lg">
-            Nuevos y reacondicionados de HP, Dell, Lenovo, Cisco y más. Cotización rápida,
+            Nuevos y Usados de HP, Dell, Lenovo, Cisco y más. Cotización rápida,
             garantía de calidad y envíos a todo el país.
           </p>
 
